@@ -1,0 +1,27 @@
+/* Themify Customize Styling */
+body {	background-image: url(http://ec2-54-199-176-183.ap-northeast-1.compute.amazonaws.com/wp-content/uploads/2017/04/sky-images.jpg);
+	background-size: cover;
+	background-position: center center; 
+}
+#sidebar {	
+	color: #1e17ed;	line-height:15px;
+ 
+}
+.post-title, .post-title a {	
+	font-family:Arial, Helvetica, sans-serif;	font-weight:normal;
+	font-size:110%;
+	line-height:10%;
+	text-align:center; 
+}
+.single-post .post-title {	
+	font-family:Arial, Helvetica, sans-serif; 
+}
+.loops-wrapper.list-thumb-image .post-title {	
+	font-family:Arial, Helvetica, sans-serif; 
+}
+#sidebar .widgettitle {		line-height:1px;
+ 
+}
+#sidebar .widget li {	
+	margin: 1px; 
+}
