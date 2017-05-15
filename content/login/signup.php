@@ -1,15 +1,6 @@
 <?php
 include "../DBConfig.php";
 include "../renderHelper.php";
-?>
-
-
-<!DOCTYPE html>
-<html>
-
-<body>
-
-<?php
 
 error_reporting( E_ALL );
 ini_set( 'display_errors', '1' );
@@ -42,7 +33,7 @@ if ( isset( $_GET['username'] ) && isset( $_GET['password'] ) ) {
 			
 			$result = mysqli_query( $conn, $sql );
 			if ( $result ) {
-				showManagePage( 0 );
+				header("Location: ../Management/management.php?permission='$permission'");
 			}
 			else {
 				echo "insert query error";
@@ -70,9 +61,3 @@ else {
 
 ?>
 
-
-
-
-</body>
-
-</html>
